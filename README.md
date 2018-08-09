@@ -1,16 +1,11 @@
-# vue-typescript-demo
+Vue Modify Array Object Demo
+============================
 
-## Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Then open <http://localhost:8080/>, click on the users,
+their `clicked` property should be modified to `true`,
+but nothing changes on page.
