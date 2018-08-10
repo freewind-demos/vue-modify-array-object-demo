@@ -21,8 +21,8 @@
         @Prop() private users: Array<User> = [{name: "Mike"}, {name: "Ann"}];
 
         clickUser(user: User) {
-            user.clicked = true
-            alert("clicked on " + user.name + ": " + user.clicked)
+            // user.clicked = true
+            Vue.set(user, 'clicked', true)
         }
     }
 </script>
